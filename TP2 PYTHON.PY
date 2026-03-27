@@ -7,3 +7,4 @@ print([['gender']]. tail())
 print([['gender']]. tail(12))
 
 print(df[['gender', 'race/ethnicity', 'parental level of education']].head(10))
+print(df[['gender', 'writing score']].head(8))
