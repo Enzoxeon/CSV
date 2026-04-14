@@ -1,0 +1,9 @@
+import pandas as pd
+df=pd.read_csv('StudentsPerformance.csv')
+
+print ([['gender' , 'math score']])
+print (df.head(8))
+print (df.tail(4))
+print (df.shape)
+print (df.dtypes)
+print (df.count())
